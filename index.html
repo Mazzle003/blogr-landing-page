@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +11,23 @@
         href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet" />
 
-    <link rel="stylesheet" href="/starter/style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>Blogr Landing Page</title>
 </head>
+
 <body>
     <main>
         <section class="header-hero">
             <div class="container">
                 <header>
                     <div class="header-img-box">
-                        <img src="../blogr-landing-page-main/images/logo.svg" alt="Company-logo" class="logo-img" />
+                        <img src="/assets/images/logo.svg" alt="Company-logo" class="logo-img" />
                     </div>
 
                     <div class="header-nav-box">
                         <div class="nav">
-                        
+
                             <div class="links">
                                 <div>
                                     <ul class="header-links-list">
@@ -33,10 +35,10 @@
                                             <div onclick="handleMenuOPen1()">
                                                 <span>Product</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-1">
                                                 <div>
                                                     <li><a href="#">Overview</a></li>
@@ -51,10 +53,10 @@
                                             <div onclick="handleMenuOPen2()">
                                                 <span>Company</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-2">
                                                 <div>
                                                     <li><a href="#">About</a></li>
@@ -64,15 +66,15 @@
                                                 </div>
                                             </ul>
                                         </li>
-                        
+
                                         <li class="list-items list-items2">
                                             <div onclick="handleMenuOPen3()">
                                                 <span>Connect</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-light.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-3">
                                                 <div>
                                                     <li><a href="#">Contact</a></li>
@@ -84,9 +86,9 @@
                                     </ul>
                                 </div>
                             </div>
-                        
+
                         </div>
-                        
+
                         <div class="cta-buttons">
                             <button class="cta-btn-1">Login</button>
                             <button class="cta-btn-2">Sign Up</button>
@@ -94,9 +96,11 @@
                     </div>
 
                     <div class="header-icon-box close">
-                        <img src="../blogr-landing-page-main/images/icon-hamburger.svg" class="menu-icon"id="menu_open" alt="Menu-Icon" onclick="handleMobileMenu()"/>
-                        
-                        <img src="../blogr-landing-page-main/images/icon-close.svg" class="menu-icon" id="menu_close" alt="Menu-Icon" onclick="handleMobileMenuClose()" />
+                        <img src="/assets/images/icon-hamburger.svg" class="menu-icon" id="menu_open" alt="Menu-Icon"
+                            onclick="handleMobileMenu()" />
+
+                        <img src="/assets/images/icon-close.svg" class="menu-icon" id="menu_close" alt="Menu-Icon"
+                            onclick="handleMobileMenuClose()" />
                     </div>
                 </header>
 
@@ -104,7 +108,7 @@
                 <div id="menu" class="mobile-menu">
                     <div class="mobile-menu-box">
                         <div class="nav-mobile">
-                        
+
                             <div class="links">
                                 <div>
                                     <ul class="header-links-list">
@@ -112,10 +116,10 @@
                                             <div class="menu-link" onclick="handleMenuOPen1()">
                                                 <span>Product</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-1">
                                                 <div>
                                                     <li><a href="#">Overview</a></li>
@@ -130,10 +134,10 @@
                                             <div class="menu-link" onclick="handleMenuOPen2()">
                                                 <span>Company</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-2">
                                                 <div>
                                                     <li><a href="#">About</a></li>
@@ -143,15 +147,15 @@
                                                 </div>
                                             </ul>
                                         </li>
-                        
+
                                         <li class="list-items list-items2">
                                             <div class="menu-link" onclick="handleMenuOPen3()">
                                                 <span>Connect</span>
                                                 <span>
-                                                    <img src="../blogr-landing-page-main/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
+                                                    <img src="/assets/images/icon-arrow-dark.svg" alt="Down-facing-arrow" />
                                                 </span>
                                             </div>
-                        
+
                                             <ul class="inner-links close" id="link-3">
                                                 <div>
                                                     <li><a href="#">Contact</a></li>
@@ -163,9 +167,9 @@
                                     </ul>
                                 </div>
                             </div>
-                        
+
                         </div>
-                        
+
                         <div class="cta-buttons">
                             <button class="cta-btn-1">Login</button>
                             <button class="cta-btn-2">Sign Up</button>
@@ -190,7 +194,7 @@
             </div>
 
         </section>
-        
+
         <section class="features">
             <div class="container">
                 <h2>Designed for the future</h2>
@@ -199,28 +203,33 @@
                         <div>
                             <h3>Introducing an extensible editor</h3>
                             <p>
-                                Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
-                                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
-                                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+                                Blogr features an exceedingly intuitive interface which lets you focus on one thing:
+                                creating content.
+                                The editor supports management of multiple blogs and allows easy manipulation of embeds
+                                such as images,
+                                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add
+                                functionality or
                                 change the looks of a blog.
                             </p>
                         </div>
-                
+
                         <div>
                             <h3>Robust content management</h3>
                             <p>
-                                Flexible content management enables users to easily move through posts. Increase the usability of your
+                                Flexible content management enables users to easily move through posts. Increase the
+                                usability of your
                                 blog
-                                by adding customized categories, sections, format, or flow. With this functionality, you’re in full
+                                by adding customized categories, sections, format, or flow. With this functionality,
+                                you’re in full
                                 control.
                             </p>
                         </div>
                     </div>
                     <div class="features-img-box">
-                        <img src="../blogr-landing-page-main/images/illustration-editor-desktop.svg" alt="Editor-imsge"
+                        <img src="/assets/images/illustration-editor-desktop.svg" alt="Editor-imsge"
                             class="feature-img-desktop" />
 
-                        <img src="../blogr-landing-page-main/images/illustration-editor-mobile.svg" alt="Editor-imsge"
+                        <img src="/assets/images/illustration-editor-mobile.svg" alt="Editor-imsge"
                             class="feature-img-mobile" />
                     </div>
                 </div>
@@ -231,16 +240,18 @@
             <div class="container">
                 <div class="feature-2">
                     <div class="feature-img-box">
-                        <img src="../blogr-landing-page-main/images/illustration-phones.svg" alt="Phones-image" class="feature-img" />
+                        <img src="/assets/images/illustration-phones.svg" alt="Phones-image" class="feature-img" />
                     </div>
-                    
+
                     <div class="feature-text">
                         <div>
-                            <h3>State of the Art Infrastructure</h3>    
+                            <h3>State of the Art Infrastructure</h3>
                             <P>
-                                With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-                                This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-                            </P>                            
+                                With reliability and speed in mind, worldwide data centers provide the backbone for
+                                ultra-fast connectivity.
+                                This ensures your site will load instantly, no matter where your readers are, keeping
+                                your site competitive.
+                                </P>
                         </div>
                     </div>
                 </div>
@@ -251,25 +262,28 @@
             <div class="container last-child">
                 <div class="feature-3">
                     <div class="img-box">
-                        <img src="../blogr-landing-page-main/images/illustration-laptop-desktop.svg" alt="Laptop-Illustration"
+                        <img src="/assets/images/illustration-laptop-desktop.svg" alt="Laptop-Illustration"
                             class="feature-img-desktop" />
 
-                        <img src="../blogr-landing-page-main/images/illustration-laptop-mobile.svg" alt="Laptop-Illustration"
-                            class="feature-img-mobile" />
+                        <img src="/assets/images/illustration-laptop-mobile.svg" alt="Laptop-Illustration" class="feature-img-mobile" />
                     </div>
                     <div class="feature-text">
                         <div>
                             <h3>Free, open, simple</h3>
                             <p>
-                                Blogr is a free and open source application backed by a large community of helpful developers. It supports
-                                features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
-                                and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+                                Blogr is a free and open source application backed by a large community of helpful
+                                developers. It supports
+                                features such as code syntax highlighting, RSS feeds, social media integration,
+                                third-party commenting tools,
+                                and works seamlessly with Google Analytics. The architecture is clean and is relatively
+                                easy to learn.
                             </p>
                         </div>
                         <div>
                             <h3>Powerful tooling</h3>
                             <p>
-                                Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                                Batteries included. We built a simple and straightforward CLI tool that makes
+                                customization and deployment a breeze, but
                                 capable of producing even the most complicated sites.
                             </p>
                         </div>
@@ -280,7 +294,7 @@
 
         <footer>
             <div class="container">
-                <img src="../blogr-landing-page-main/images/logo.svg" alt="Company Logo" class="footer-img">
+                <img src="/assets/images/logo.svg" alt="Company Logo" class="footer-img">
 
                 <div class="product">
                     <span class="footer-headings">Product</span>
@@ -317,4 +331,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>

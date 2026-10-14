@@ -24,7 +24,7 @@ body {
 /* ************************************** */
 
 .header-hero {
-    background: url(../blogr-landing-page-main/images/bg-pattern-intro-desktop.svg), 
+    background: url(/assets/images/bg-pattern-intro-desktop.svg), 
     linear-gradient(to top left, hsla(353, 100%, 62%), hsla(13, 100%, 72%));
     background-size: auto;
     background-position-y: 52%;
@@ -309,7 +309,7 @@ body {
 }
 
 .features.accent {
-   background: url(../blogr-landing-page-main/images/bg-pattern-circles.svg),
+   background: url(/assets/images/bg-pattern-circles.svg),
    linear-gradient(to bottom left, hsl(237, 23%, 31%), hsl(237, 17%, 21%));
    background-size: auto;
    background-position-y: 85%;
